@@ -5,7 +5,7 @@ from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandle
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-TOKEN = 'YOUR_BOT_TOKEN'
+TOKEN = '6738499522:AAF6zFAdO7aDiYJNVNWo9XKdO9GfOtF2LLw'
 
 updater = Updater(token=TOKEN, use_context=True)
 dispatcher = updater.dispatcher
